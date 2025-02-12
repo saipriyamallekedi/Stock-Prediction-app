@@ -14,9 +14,13 @@ Technical Indicators: Uses 50-Day Moving Average (MA50) and Relative Strength In
 Tech Stack:
 
 Python 3.x: Programming language.
+
 Streamlit: Framework for building interactive data apps.
+
 scikit-learn: Machine learning library for model training and prediction.
+
 yfinance: Library to download historical stock data from Yahoo Finance.
+
 matplotlib: Data visualization library for plotting graphs.
 
 **
