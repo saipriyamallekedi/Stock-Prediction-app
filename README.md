@@ -1,65 +1,20 @@
-This project predicts the closing price of a given stock (e.g., AAPL) based on historical stock data. The app uses Random Forest Regressor and allows users to input stock tickers, specify a date range, and get predictions along with a graphical representation of stock trends.
+A Machine Learning based web application for predicting the closing price of stocks using historical data. The app utilizes the Random Forest Regressor model to provide real-time predictions based on past stock data, and displays them alongside key technical indicators, such as moving averages and relative strength index (RSI).
 
-Features
-Stock Prediction: Predict the closing price for a given stock.
-Visualization: Plot stock price data and the predicted closing price.
-User Input: Specify the stock ticker and the date range via a user-friendly sidebar.
-Stock Indicators: Incorporates features like 50-day moving average (MA50) and Relative Strength Index (RSI) for the prediction model.
-Tech Stack
-Python: Programming language used.
-Streamlit: Framework for building interactive apps.
-yfinance: Fetch historical stock data.
-Scikit-learn: For the Random Forest Regressor model.
-Matplotlib: For data visualization.
-Getting Started
-Prerequisites
-Make sure you have the following installed:
+Overview:
 
-Python 3.x (preferably Python 3.7 or higher)
-pip for managing Python packages
-Installation
-Clone this repository to your local machine:
-bash
-Copy
-Edit
-git clone https://github.com/your-username/stock-price-prediction.git
-cd stock-price-prediction
-Install the required dependencies:
-bash
-Copy
-Edit
-pip install -r requirements.txt
-This will install:
+This project provides a user-friendly interface where users can input a stock ticker (such as AAPL, GOOGL, or MSFT) and get predictions for future stock prices, alongside visualizations like stock trends and technical indicators. The application is built with Streamlit for the frontend, and uses scikit-learn, yfinance, and matplotlib for machine learning, data retrieval, and visualization.
 
-streamlit
-yfinance
-scikit-learn
-matplotlib
-pandas
-Running the App
-To start the app, run the following command:
+Key Features:
 
-bash
-Copy
-Edit
-streamlit run app.py
-This will launch the Streamlit app in your web browser, where you can input stock tickers (e.g., AAPL, GOOGL, NVDA) and date ranges to see the predictions and trends.
+Real-time Stock Predictions: Predict the future closing price of a stock based on historical data.
+Interactive User Interface: Streamlit-based web interface for easy interaction and customization.
+Visualizations: Includes line plots to visualize the stock price and predicted trends.
+Technical Indicators: Uses 50-Day Moving Average (MA50) and Relative Strength Index (RSI) to enhance predictions.
 
-Usage
-Open the app in your browser.
-In the sidebar:
-Enter the stock ticker (e.g., AAPL, GOOGL, NVDA).
-Select Start Date and End Date.
-View the predicted stock price along with the graph displaying the stock's actual closing prices and moving averages.
-Example
-Ticker: AAPL (Apple Inc.)
-Start Date: January 1, 2023
-End Date: January 1, 2025
-The app will display:
+Tech Stack:
 
-Predicted closing price for the selected date.
-A graph showing the actual stock prices, the 50-day moving average, and the predicted closing price.
-Future Enhancements
-Sentiment Analysis: Integrate sentiment analysis based on news articles to improve prediction accuracy.
-Model Tuning: Experiment with other machine learning models and hyperparameters.
-Additional Features: Incorporate other technical indicators (e.g., Bollinger Bands, MACD) to enhance the prediction model.
+Python 3.x: Programming language.
+Streamlit: Framework for building interactive data apps.
+scikit-learn: Machine learning library for model training and prediction.
+yfinance: Library to download historical stock data from Yahoo Finance.
+matplotlib: Data visualization library for plotting graphs.
