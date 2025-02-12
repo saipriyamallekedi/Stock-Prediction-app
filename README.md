@@ -18,3 +18,21 @@ Streamlit: Framework for building interactive data apps.
 scikit-learn: Machine learning library for model training and prediction.
 yfinance: Library to download historical stock data from Yahoo Finance.
 matplotlib: Data visualization library for plotting graphs.
+
+
+Prerequisites:
+
+Ensure you have the following installed:
+
+Python 3.x (preferably Python 3.7 or higher)
+pip for managing Python packages
+**Installation**
+1. Clone the repository to your local machine:
+
+git clone https://github.com/your-username/stock-price-prediction.git
+cd stock-price-prediction
+
+2.Install the required dependencies using pip:
+pip install -r requirements.txt
+**This will install the necessary Python libraries such as streamlit, yfinance, scikit-learn, and matplotlib.
+**
